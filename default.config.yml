@@ -19,7 +19,6 @@ dotfiles_files:
   - .zshrc
   - .gitignore
   - .inputrc
-  - .osx
   - .vimrc
 
 homebrew_installed_packages:
