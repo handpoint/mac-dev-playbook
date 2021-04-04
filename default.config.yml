@@ -22,6 +22,7 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
+  - java11
   - bash-completion
   - httpie
   - iperf
@@ -52,7 +53,6 @@ homebrew_cask_apps:
   - wireshark
   - postgres
   - pgadmin4
-  - adoptopenjdk11
   - intellij-idea
 
 # See `geerlingguy.mas` role documentation for usage instructions.
