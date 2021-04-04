@@ -12,12 +12,12 @@
       tags: ['always']
 
   roles:
-    - role: handpoint.homebrew
+    - role: geerlingguy.homebrew
       tags: ['homebrew']
-    - role: handpoint.dotfiles
+    - role: geerlingguy.dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
-    - role: handpoint.mas
+    - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
 
