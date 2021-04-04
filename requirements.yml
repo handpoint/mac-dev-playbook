@@ -1,5 +1,5 @@
 ---
 roles:
-  - name: handpoint.dotfiles
-  - name: handpoint.homebrew
-  - name: handpoint.mas
+  - name: geerlingguy.dotfiles
+  - name: geerlingguy.homebrew
+  - name: geerlingguy.mas
