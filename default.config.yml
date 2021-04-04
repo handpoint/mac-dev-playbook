@@ -24,6 +24,7 @@ dotfiles_files:
 homebrew_installed_packages:
   - java11
   - awscli
+  - awslogs
   - bash-completion
   - httpie
   - iperf
