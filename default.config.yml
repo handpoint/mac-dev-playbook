@@ -53,7 +53,7 @@ homebrew_cask_apps:
   - transmit
   - android-studio
   - wireshark
-  - postgres
+  - postgresql@11
   - pgadmin4
   - intellij-idea
 
