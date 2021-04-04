@@ -52,7 +52,7 @@ homebrew_cask_apps:
   - wireshark
   - postgres
   - pgadmin4
-  - java
+  - adoptopenjdk11
   - intellij-idea
 
 # See `geerlingguy.mas` role documentation for usage instructions.
