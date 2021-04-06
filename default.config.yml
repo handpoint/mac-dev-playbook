@@ -37,6 +37,9 @@ homebrew_installed_packages:
   - wrk
   - tfswitch
   - postgresql@11
+  - fastlane
+  - hub
+  - yarn
 
 homebrew_taps:
   - homebrew/core
@@ -80,10 +83,15 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+npm_packages: 
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
+  - name: ionic
+    version: 5.4.16
+  - name: cordova
+    version: 8.0.0
+  - name: protractor
 pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
