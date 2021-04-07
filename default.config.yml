@@ -25,6 +25,7 @@ homebrew_installed_packages:
   - curl
   - git
   - java11
+  - maven
   - awscli
   - awslogs
   - bash-completion
@@ -46,6 +47,7 @@ homebrew_taps:
   - homebrew/cask
   - warrensbox/tap
   - petere/postgresql
+  - adoptopenjdk/openjdk
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -64,6 +66,8 @@ homebrew_cask_apps:
   - wireshark
   - pgadmin4
   - intellij-idea
+  - openoffice
+  - adoptopenjdk8
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
