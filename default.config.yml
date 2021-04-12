@@ -20,6 +20,8 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .vimrc
+  - .osx
+  - .tmux.conf
 
 homebrew_installed_packages:
   - curl
@@ -41,6 +43,7 @@ homebrew_installed_packages:
   - fastlane
   - hub
   - yarn
+  - tmux
 
 homebrew_taps:
   - homebrew/core
@@ -68,6 +71,8 @@ homebrew_cask_apps:
   - intellij-idea
   - openoffice
   - adoptopenjdk8
+  - netnewswire
+  - android-platform-tools
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -91,9 +96,9 @@ npm_packages:
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
-  - name: ionic
+  - name: ionic 
     version: 5.4.16
-  - name: cordova
+  - name: cordova 
     version: 8.0.0
   - name: protractor
 pip_packages: []
