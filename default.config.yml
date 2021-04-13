@@ -25,6 +25,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - curl
+  - packer  
   - git
   - java11
   - maven
