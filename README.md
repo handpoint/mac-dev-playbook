@@ -17,7 +17,7 @@ This is a work in progress.
   2. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html).
   3. Clone this repository to your local drive.
   4. Run `$ ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
-  5. Run `ansible-playbook main.yml -i inventory --ask-become-pass` inside this directory. Enter your MacOS account password when prompted.
+  5. Run `ansible-playbook main.yml -i inventory -K --tags "homebrew,dotfiles,mas,extra-packages"` inside this directory. Enter your MacOS account password when prompted.
 
 > Note: If some Homebrew commands fail, you might need to agree to Xcode's license or fix some other Brew issue. Run `brew doctor` to see if this is the case.
 

@@ -39,12 +39,15 @@ homebrew_installed_packages:
   - cowsay
   - wget
   - wrk
+  - terraform
   - tfswitch
   - postgresql@11
   - fastlane
   - hub
   - yarn
   - tmux
+  - cocoapods
+  - jq
 
 homebrew_taps:
   - homebrew/core
@@ -60,7 +63,6 @@ homebrew_cask_apps:
   - sublime-text
   - pycharm
   - chromedriver
-  - docker
   - dropbox
   - firefox
   - google-chrome
@@ -74,6 +76,7 @@ homebrew_cask_apps:
   - adoptopenjdk8
   - netnewswire
   - android-platform-tools
+  - gimp
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -82,30 +85,22 @@ mas_password: ""
 
 osx_script: "~/.osx --no-restart"
 
-# Install packages from other package managers.
-# Note: You are responsible for making sure the required package managers are
-# installed, eg. through homebrew.
-composer_packages: []
-# - name: drush
-#   state: present # present/absent, default: present
-#   version: "^8.1" # default: N/A
-gem_packages: []
-# - name: bundler
-#   state: present # present/absent/latest, default: present
-#   version: "~> 1.15.1" # default: N/A
-npm_packages: 
-# - name: webpack
-#   state: present # present/absent/latest, default: present
-#   version: "^2.6" # default: N/A
-  - name: ionic 
-    version: 5.4.16
-  - name: cordova 
-    version: 8.0.0
-  - name: protractor
-pip_packages: []
-# - name: mkdocs
-#   state: present # present/absent/latest, default: present
-#   version: "0.16.3" # default: N/A
+composer_packages:
+  - name: hirak/prestissimo
+  - name: drush/drush
+    version: '^8.1'
+
+gem_packages:
+  - name: bundler
+    state: latest
+
+npm_packages:
+  - cordova@8.0.0
+  - nodemon
+  - ionic@5.4.16
+
+pip_packages:
+  - name: mkdocs
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
