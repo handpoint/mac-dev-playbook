@@ -67,7 +67,7 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - slack
-  - transmit
+  - cyberduck
   - android-studio
   - wireshark
   - pgadmin4
