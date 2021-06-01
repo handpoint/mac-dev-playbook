@@ -17,7 +17,7 @@ This is a work in progress.
   2. Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   3. Run: `brew update && brew upgrade`
   4. [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html). `brew install python ansible`
-  5. Clone this repository to your local drive.
+  5. Clone this repository to your local drive `git clone https://github.com/handpoint/mac-dev-playbook`
   6. Run `ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
   7. Run `ansible-playbook main.yml -i inventory -K --tags "homebrew,dotfiles,mas,extra-packages"` inside this directory. Enter your MacOS account password when prompted.
 
