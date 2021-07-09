@@ -24,11 +24,14 @@ dotfiles_files:
   - .tmux.conf
 
 homebrew_installed_packages:
+  - imagemagick
+  - nmap
   - curl
   - packer  
   - git
   - java11
   - maven
+  - gradle
   - awscli
   - awslogs
   - bash-completion
@@ -48,6 +51,8 @@ homebrew_installed_packages:
   - tmux
   - cocoapods
   - jq
+  - subnetcalc
+  - gource
 
 homebrew_taps:
   - homebrew/core
@@ -78,6 +83,8 @@ homebrew_cask_apps:
   - android-platform-tools
   - gimp
   - github
+  - android-sdk
+  - postman
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
